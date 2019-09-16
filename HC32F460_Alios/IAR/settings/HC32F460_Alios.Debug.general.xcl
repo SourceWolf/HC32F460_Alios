@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armjlink2.dll" 
+
+"C:\03-githubFiles\HC32F460_Alios_V1.0\IAR\Debug\Exe\HC32F460_Alios.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
+
+--flash_loader="C:\03-githubFiles\HC32F460_Alios_V1.0\IAR\..\flashloader\HC32F46x.board" 
+
+
+
+

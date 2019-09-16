@@ -1,0 +1,2129 @@
+Dependencies for Project 'HC32F460_Alios_Example', Target 'AliOS_Example': (DO NOT MODIFY !)
+F (..\App\sys_init.c)(0x5D722D79)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\sys_init.o --omf_browse .\objects\sys_init.crf --depend .\objects\sys_init.d)
+I (..\App\sys_init.h)(0x5D7200F9)
+I (..\common\hc32_ddl.h)(0x5D79AC00)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_adc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_aes.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_can.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_clk.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_cmp.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_dcu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_dmac.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_efm.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_emb.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_event_port.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_gpio.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_hash.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_i2c.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_i2s.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_icg.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_interrupts.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_keyscan.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_mpu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_ots.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_pwc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_qspi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_rmu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_rtc.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_sdioc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_spi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_sram.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_swdt.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_timer0.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_cnt.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_emb.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_oco.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_pwm.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_timer4_sevt.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer6.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timera.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_trng.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_usart.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_wdt.h)(0x5D4A8235)
+I (..\PeripheralDriver\System_Clk.h)(0x5BE25D4A)
+I (..\PeripheralDriver\FPU_Enable.h)(0x5CC7A8B2)
+F (..\App\main.c)(0x5D7749D7)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\App\sys_init.h)(0x5D7200F9)
+I (..\common\hc32_ddl.h)(0x5D79AC00)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_adc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_aes.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_can.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_clk.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_cmp.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_dcu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_dmac.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_efm.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_emb.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_event_port.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_gpio.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_hash.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_i2c.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_i2s.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_icg.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_interrupts.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_keyscan.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_mpu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_ots.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_pwc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_qspi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_rmu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_rtc.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_sdioc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_spi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_sram.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_swdt.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_timer0.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_cnt.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_emb.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_oco.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_pwm.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_timer4_sevt.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer6.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timera.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_trng.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_usart.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_wdt.h)(0x5D4A8235)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+I (..\certificate_test\nanotest\cut.h)(0x5B6D53E0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\PeripheralDriver\System_Clk.h)(0x5BE25D4A)
+I (..\PeripheralDriver\FPU_Enable.h)(0x5CC7A8B2)
+F (..\App\sys_init.h)(0x5D7200F9)()
+F (..\common\MDK\startup_hc32f46x.s)(0x5CAB03DB)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1"--list .\listings\startup_hc32f46x.lst --xref -o .\objects\startup_hc32f46x.o --depend .\objects\startup_hc32f46x.d)
+F (..\common\system_hc32f46x.c)(0x5D79AC00)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\system_hc32f46x.o --omf_browse .\objects\system_hc32f46x.crf --depend .\objects\system_hc32f46x.d)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+F (..\aos_rhino\aos_rhino_kv.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\aos_rhino_kv.o --omf_browse .\objects\aos_rhino_kv.crf --depend .\objects\aos_rhino_kv.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x5CEB79E4)
+I (..\Alios\include\aos/aos.h)(0x5B6AC521)
+I (..\Alios\include\aos/types.h)(0x5B6AC521)
+I (..\armlibc\sys\unistd.h)(0x5B6AC521)
+I (..\armlibc\sys\fcntl.h)(0x5B6AC521)
+I (..\Alios\include\aos/cli.h)(0x5B6AC521)
+I (..\Alios\include\aos/cloud.h)(0x5B6AC521)
+I (..\Alios\include\aos/debug.h)(0x5B6AC521)
+I (..\Alios\include\aos/kernel.h)(0x5B6AC521)
+I (..\armlibc\sys/types.h)(0x5B6AC521)
+I (..\Alios\include\aos/kv.h)(0x5B6AC521)
+I (..\Alios\include\aos/list.h)(0x5B6AC521)
+I (..\Alios\include\aos/log.h)(0x5B6AC521)
+I (..\Alios\include\aos/internal/log_impl.h)(0x5B6AC521)
+I (..\Alios\include\aos/vfs.h)(0x5B6AC521)
+I (..\armlibc\sys/stat.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5CEB79D6)
+I (..\Alios\include\aos/version.h)(0x5B6AC521)
+I (..\Alios\include\aos/yloop.h)(0x5B6AC521)
+I (..\Alios\include\aos/internal/event_type_code.h)(0x5B6AC521)
+I (..\Alios\include\aos/errno.h)(0x5B6AC521)
+I (..\Alios\include\aos/init.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\Alios\aos\errno_mapping.h)(0x5B6AC521)
+F (..\Alios\core\k_buf_queue.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_buf_queue.o --omf_browse .\objects\k_buf_queue.crf --depend .\objects\k_buf_queue.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_dyn_mem_proc.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_dyn_mem_proc.o --omf_browse .\objects\k_dyn_mem_proc.crf --depend .\objects\k_dyn_mem_proc.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_err.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_err.o --omf_browse .\objects\k_err.crf --depend .\objects\k_err.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_event.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_event.o --omf_browse .\objects\k_event.crf --depend .\objects\k_event.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_idle.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_idle.o --omf_browse .\objects\k_idle.crf --depend .\objects\k_idle.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_mm.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_mm.o --omf_browse .\objects\k_mm.crf --depend .\objects\k_mm.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+F (..\Alios\core\k_mm_blk.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_mm_blk.o --omf_browse .\objects\k_mm_blk.crf --depend .\objects\k_mm_blk.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_mm_debug.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_mm_debug.o --omf_browse .\objects\k_mm_debug.crf --depend .\objects\k_mm_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_mutex.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_mutex.o --omf_browse .\objects\k_mutex.crf --depend .\objects\k_mutex.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_obj.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_obj.o --omf_browse .\objects\k_obj.crf --depend .\objects\k_obj.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_pend.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_pend.o --omf_browse .\objects\k_pend.crf --depend .\objects\k_pend.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_queue.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_queue.o --omf_browse .\objects\k_queue.crf --depend .\objects\k_queue.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_ringbuf.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_ringbuf.o --omf_browse .\objects\k_ringbuf.crf --depend .\objects\k_ringbuf.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_sched.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_sched.o --omf_browse .\objects\k_sched.crf --depend .\objects\k_sched.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_sem.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_sem.o --omf_browse .\objects\k_sem.crf --depend .\objects\k_sem.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_stats.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_stats.o --omf_browse .\objects\k_stats.crf --depend .\objects\k_stats.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_sys.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_sys.o --omf_browse .\objects\k_sys.crf --depend .\objects\k_sys.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_task.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_task.o --omf_browse .\objects\k_task.crf --depend .\objects\k_task.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_task_sem.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_task_sem.o --omf_browse .\objects\k_task_sem.crf --depend .\objects\k_task_sem.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_tick.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_tick.o --omf_browse .\objects\k_tick.crf --depend .\objects\k_tick.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_time.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_time.o --omf_browse .\objects\k_time.crf --depend .\objects\k_time.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_timer.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_timer.o --omf_browse .\objects\k_timer.crf --depend .\objects\k_timer.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Alios\core\k_workqueue.c)(0x5B6AC521)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\k_workqueue.o --omf_browse .\objects\k_workqueue.crf --depend .\objects\k_workqueue.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Port\k_types.h)(0x5D7F38E3)()
+F (..\Port\port.h)(0x5B6D2476)()
+F (..\Port\port_c.c)(0x5D678AC2)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\port_c.o --omf_browse .\objects\port_c.crf --depend .\objects\port_c.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\Port\port_s.S)(0x5D7F3925)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1"--list .\listings\port_s.lst --xref -o .\objects\port_s.o --depend .\objects\port_s.d)
+F (..\aos\soc_impl.c)(0x5B6D51A0)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\soc_impl.o --omf_browse .\objects\soc_impl.crf --depend .\objects\soc_impl.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\certificate_test\rhino_test_nano.c)(0x5D7F3D8A)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\rhino_test_nano.o --omf_browse .\objects\rhino_test_nano.crf --depend .\objects\rhino_test_nano.d)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (..\certificate_test\nanotest\cut.h)(0x5B6D53E0)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+F (..\certificate_test\nanotest\cut.c)(0x5B6D55CA)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\cut.o --omf_browse .\objects\cut.crf --depend .\objects\cut.d)
+I (..\certificate_test\nanotest\cut.h)(0x5B6D53E0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+F (..\armlibc\armcc_libc.c)(0x5D722E18)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\armcc_libc.o --omf_browse .\objects\armcc_libc.crf --depend .\objects\armcc_libc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\armlibc\sys/time.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5CEB79D6)
+I (..\armlibc\sys/types.h)(0x5B6AC521)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+F (..\driver\src\hc32f46x_adc.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_adc.o --omf_browse .\objects\hc32f46x_adc.crf --depend .\objects\hc32f46x_adc.d)
+I (..\driver\inc\hc32f46x_adc.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_aes.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_aes.o --omf_browse .\objects\hc32f46x_aes.crf --depend .\objects\hc32f46x_aes.d)
+I (..\driver\inc\hc32f46x_aes.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_can.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_can.o --omf_browse .\objects\hc32f46x_can.crf --depend .\objects\hc32f46x_can.d)
+I (..\driver\inc\hc32f46x_can.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_clk.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_clk.o --omf_browse .\objects\hc32f46x_clk.crf --depend .\objects\hc32f46x_clk.d)
+I (..\driver\inc\hc32f46x_clk.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_cmp.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_cmp.o --omf_browse .\objects\hc32f46x_cmp.crf --depend .\objects\hc32f46x_cmp.d)
+I (..\driver\inc\hc32f46x_cmp.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_dcu.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_dcu.o --omf_browse .\objects\hc32f46x_dcu.crf --depend .\objects\hc32f46x_dcu.d)
+I (..\driver\inc\hc32f46x_dcu.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_dmac.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_dmac.o --omf_browse .\objects\hc32f46x_dmac.crf --depend .\objects\hc32f46x_dmac.d)
+I (..\driver\inc\hc32f46x_dmac.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_efm.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_efm.o --omf_browse .\objects\hc32f46x_efm.crf --depend .\objects\hc32f46x_efm.d)
+I (..\driver\inc\hc32f46x_efm.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_emb.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_emb.o --omf_browse .\objects\hc32f46x_emb.crf --depend .\objects\hc32f46x_emb.d)
+I (..\driver\inc\hc32f46x_emb.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_event_port.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_event_port.o --omf_browse .\objects\hc32f46x_event_port.crf --depend .\objects\hc32f46x_event_port.d)
+I (..\driver\inc\hc32f46x_event_port.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_exint_nmi_swi.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_exint_nmi_swi.o --omf_browse .\objects\hc32f46x_exint_nmi_swi.crf --depend .\objects\hc32f46x_exint_nmi_swi.d)
+I (..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_gpio.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_gpio.o --omf_browse .\objects\hc32f46x_gpio.crf --depend .\objects\hc32f46x_gpio.d)
+I (..\driver\inc\hc32f46x_gpio.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_hash.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_hash.o --omf_browse .\objects\hc32f46x_hash.crf --depend .\objects\hc32f46x_hash.d)
+I (..\driver\inc\hc32f46x_hash.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_i2c.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_i2c.o --omf_browse .\objects\hc32f46x_i2c.crf --depend .\objects\hc32f46x_i2c.d)
+I (..\driver\inc\hc32f46x_i2c.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_i2s.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_i2s.o --omf_browse .\objects\hc32f46x_i2s.crf --depend .\objects\hc32f46x_i2s.d)
+I (..\driver\inc\hc32f46x_i2s.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_icg.c)(0x5D4A8235)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_icg.o --omf_browse .\objects\hc32f46x_icg.crf --depend .\objects\hc32f46x_icg.d)
+I (..\driver\inc\hc32f46x_icg.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+F (..\driver\src\hc32f46x_interrupts.c)(0x5D7F39BD)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_interrupts.o --omf_browse .\objects\hc32f46x_interrupts.crf --depend .\objects\hc32f46x_interrupts.d)
+I (..\driver\inc\hc32f46x_interrupts.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+I (..\Alios\core\include\k_api.h)(0x5B6AC521)
+I (..\aos_rhino\k_config.h)(0x5B6D551C)
+I (..\Alios\core\include\k_default_config.h)(0x5B6AC521)
+I (..\Port\k_types.h)(0x5D7F38E3)
+I (..\Port\k_compiler.h)(0x5D678AC2)
+I (..\Alios\core\include\k_err.h)(0x5B6AC521)
+I (..\Alios\core\include\k_critical.h)(0x5B6AC521)
+I (..\Alios\core\include\k_spin_lock.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sys.h)(0x5B6AC521)
+I (..\Alios\core\include\k_bitmap.h)(0x5B6AC521)
+I (..\Alios\core\include\k_list.h)(0x5B6AC521)
+I (..\Alios\core\include\k_obj.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sched.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task.h)(0x5B6AC521)
+I (..\Alios\core\include\k_ringbuf.h)(0x5B6AC521)
+I (..\Alios\core\include\k_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_buf_queue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_task_sem.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mutex.h)(0x5B6AC521)
+I (..\Alios\core\include\k_timer.h)(0x5B6AC521)
+I (..\Alios\core\include\k_time.h)(0x5B6AC521)
+I (..\Alios\core\include\k_event.h)(0x5B6AC521)
+I (..\Alios\core\include\k_stats.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_debug.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_blk.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm_region.h)(0x5B6AC521)
+I (..\Alios\core\include\k_mm.h)(0x5B6AC521)
+I (..\Alios\core\include\k_workqueue.h)(0x5B6AC521)
+I (..\Alios\core\include\k_internal.h)(0x5B6AC521)
+I (..\Alios\core\include\k_trace.h)(0x5B6AC521)
+I (..\Alios\core\include\k_soc.h)(0x5B6AC521)
+I (..\Alios\core\include\k_hook.h)(0x5B6AC521)
+I (..\Port\port.h)(0x5B6D2476)
+I (..\Alios\core\include\k_endian.h)(0x5B6AC521)
+I (..\App\sys_init.h)(0x5D7200F9)
+I (..\common\hc32_ddl.h)(0x5D79AC00)
+I (..\driver\inc\hc32f46x_adc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_aes.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_can.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_clk.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_cmp.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_dcu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_dmac.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_efm.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_emb.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_event_port.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_gpio.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_hash.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_i2c.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_i2s.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_icg.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_keyscan.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_mpu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_ots.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_pwc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_qspi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_rmu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_rtc.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_sdioc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_spi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_sram.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_swdt.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_timer0.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_cnt.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_emb.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_oco.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_pwm.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_timer4_sevt.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer6.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timera.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_trng.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_usart.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_wdt.h)(0x5D4A8235)
+F (..\driver\src\hc32f46x_keyscan.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_keyscan.o --omf_browse .\objects\hc32f46x_keyscan.crf --depend .\objects\hc32f46x_keyscan.d)
+I (..\driver\inc\hc32f46x_keyscan.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_mpu.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_mpu.o --omf_browse .\objects\hc32f46x_mpu.crf --depend .\objects\hc32f46x_mpu.d)
+I (..\driver\inc\hc32f46x_mpu.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_ots.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_ots.o --omf_browse .\objects\hc32f46x_ots.crf --depend .\objects\hc32f46x_ots.d)
+I (..\driver\inc\hc32f46x_ots.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_pwc.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_pwc.o --omf_browse .\objects\hc32f46x_pwc.crf --depend .\objects\hc32f46x_pwc.d)
+I (..\driver\inc\hc32f46x_pwc.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_qspi.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_qspi.o --omf_browse .\objects\hc32f46x_qspi.crf --depend .\objects\hc32f46x_qspi.d)
+I (..\driver\inc\hc32f46x_qspi.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_rmu.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_rmu.o --omf_browse .\objects\hc32f46x_rmu.crf --depend .\objects\hc32f46x_rmu.d)
+I (..\driver\inc\hc32f46x_rmu.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_rtc.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_rtc.o --omf_browse .\objects\hc32f46x_rtc.crf --depend .\objects\hc32f46x_rtc.d)
+I (..\driver\inc\hc32f46x_rtc.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_sdioc.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_sdioc.o --omf_browse .\objects\hc32f46x_sdioc.crf --depend .\objects\hc32f46x_sdioc.d)
+I (..\driver\inc\hc32f46x_sdioc.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_spi.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_spi.o --omf_browse .\objects\hc32f46x_spi.crf --depend .\objects\hc32f46x_spi.d)
+I (..\driver\inc\hc32f46x_spi.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_sram.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_sram.o --omf_browse .\objects\hc32f46x_sram.crf --depend .\objects\hc32f46x_sram.d)
+I (..\driver\inc\hc32f46x_sram.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_swdt.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_swdt.o --omf_browse .\objects\hc32f46x_swdt.crf --depend .\objects\hc32f46x_swdt.d)
+I (..\driver\inc\hc32f46x_swdt.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_timer0.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_timer0.o --omf_browse .\objects\hc32f46x_timer0.crf --depend .\objects\hc32f46x_timer0.d)
+I (..\driver\inc\hc32f46x_timer0.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_timer4_cnt.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_timer4_cnt.o --omf_browse .\objects\hc32f46x_timer4_cnt.crf --depend .\objects\hc32f46x_timer4_cnt.d)
+I (..\driver\inc\hc32f46x_timer4_cnt.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_timer4_emb.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_timer4_emb.o --omf_browse .\objects\hc32f46x_timer4_emb.crf --depend .\objects\hc32f46x_timer4_emb.d)
+I (..\driver\inc\hc32f46x_timer4_emb.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_timer4_oco.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_timer4_oco.o --omf_browse .\objects\hc32f46x_timer4_oco.crf --depend .\objects\hc32f46x_timer4_oco.d)
+I (..\driver\inc\hc32f46x_timer4_oco.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_timer4_pwm.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_timer4_pwm.o --omf_browse .\objects\hc32f46x_timer4_pwm.crf --depend .\objects\hc32f46x_timer4_pwm.d)
+I (..\driver\inc\hc32f46x_timer4_pwm.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_timer4_sevt.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_timer4_sevt.o --omf_browse .\objects\hc32f46x_timer4_sevt.crf --depend .\objects\hc32f46x_timer4_sevt.d)
+I (..\driver\inc\hc32f46x_timer4_sevt.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_timer6.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_timer6.o --omf_browse .\objects\hc32f46x_timer6.crf --depend .\objects\hc32f46x_timer6.d)
+I (..\driver\inc\hc32f46x_timer6.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_timera.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_timera.o --omf_browse .\objects\hc32f46x_timera.crf --depend .\objects\hc32f46x_timera.d)
+I (..\driver\inc\hc32f46x_timera.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_trng.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_trng.o --omf_browse .\objects\hc32f46x_trng.crf --depend .\objects\hc32f46x_trng.d)
+I (..\driver\inc\hc32f46x_trng.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_usart.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_usart.o --omf_browse .\objects\hc32f46x_usart.crf --depend .\objects\hc32f46x_usart.d)
+I (..\driver\inc\hc32f46x_usart.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\driver\src\hc32f46x_utility.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_utility.o --omf_browse .\objects\hc32f46x_utility.crf --depend .\objects\hc32f46x_utility.d)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+F (..\driver\src\hc32f46x_wdt.c)(0x5D79ABF9)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\hc32f46x_wdt.o --omf_browse .\objects\hc32f46x_wdt.crf --depend .\objects\hc32f46x_wdt.d)
+I (..\driver\inc\hc32f46x_wdt.h)(0x5D4A8235)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+F (..\PeripheralDriver\System_Clk.c)(0x5D22A745)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\system_clk.o --omf_browse .\objects\system_clk.crf --depend .\objects\system_clk.d)
+I (..\common\hc32_ddl.h)(0x5D79AC00)
+I (..\common\hc32_common.h)(0x5D79AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (..\common\hc32f46x.h)(0x5D79AC00)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (..\common\system_hc32f46x.h)(0x5D4A8238)
+I (..\common\ddl_config.h)(0x5D71FA1E)
+I (..\driver\inc\hc32f46x_adc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_aes.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_can.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_clk.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_cmp.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_dcu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_dmac.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_efm.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_emb.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_event_port.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_exint_nmi_swi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_gpio.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_hash.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_i2c.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_i2s.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_icg.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_interrupts.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_keyscan.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_mpu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_ots.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_pwc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_qspi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_rmu.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_rtc.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_sdioc.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_spi.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_sram.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_swdt.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_timer0.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_cnt.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_emb.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_oco.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer4_pwm.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_timer4_sevt.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timer6.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_timera.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_trng.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_usart.h)(0x5D4A8235)
+I (..\driver\inc\hc32f46x_utility.h)(0x5D79ABF9)
+I (..\driver\inc\hc32f46x_wdt.h)(0x5D4A8235)
+I (..\PeripheralDriver\system_clk_cfg.h)(0x5D355377)
+F (..\PeripheralDriver\System_Clk.h)(0x5BE25D4A)()
+F (..\PeripheralDriver\system_clk_cfg.h)(0x5D355377)()
+F (..\PeripheralDriver\FPU_Enable.c)(0x5D7204E4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Alios\include -I ..\Alios\core\include -I ..\Alios\aos -I ..\Alios\core -I ..\Alios -I ..\aos -I ..\App -I ..\armlibc\sys -I ..\armlibc -I ..\armlibc\RVMDK -I ..\certificate_test -I ..\certificate_test\nanotest -I ..\common -I ..\driver\inc -I ..\FileSystem\inc -I ..\PeripheralDriver -I ..\Port -I ..\aos_rhino --diag_suppress=186,66-I.\RTE\_AliOS_Example-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Users\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB -DAOS_KV -DCONFIG_NO_TCPIP -D__TARGET_FPU_VFP-o .\objects\fpu_enable.o --omf_browse .\objects\fpu_enable.crf --depend .\objects\fpu_enable.d)
+I (..\PeripheralDriver\FPU_Enable.h)(0x5CC7A8B2)
+F (..\PeripheralDriver\FPU_Enable.h)(0x5CC7A8B2)()
+F (C:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Lib\ARM\arm_cortexM4lf_math.lib)(0x5C8B5FF8)()
