@@ -15,7 +15,7 @@ extern void test_certificate(void);
 int main(void)
 {
 #if defined (__CC_ARM) && defined (__TARGET_FPU_VFP)
-    FPU_Enable();
+    SCB->CPACR |= 0x00F00000;
 #endif
     system_clk_init();
     Ddl_UartInit();

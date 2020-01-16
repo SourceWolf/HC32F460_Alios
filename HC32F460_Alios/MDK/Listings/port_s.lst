@@ -248,8 +248,8 @@ ARM Macro Assembler    Page 4
               E000ED08 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=.\objects\port_s.d -o.\objects\port_s.o -I.\RTE\_AliOS_Example 
--IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include -IC:
-\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include -IC:\User
+-IC:\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include -IC:
+\Users\User\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include -IC:\User
 s\User\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.0\Device\Include --predefine="
 __MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 528" --predefine="_RTE_ 
 SETA 1" --list=.\listings\port_s.lst ..\Port\port_s.S
